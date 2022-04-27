@@ -6,7 +6,6 @@ function isValid(name) {
   let answer = false;
   if (name !== null && name.length >= 4 && name.indexOf(' ') <= 0) {
     answer = true;
-
   }
   return answer;
 }
